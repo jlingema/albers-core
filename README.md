@@ -5,17 +5,12 @@ WARNING: If you have set up your environment for FCCSW, this package will not co
 
 core albers library 
 
-On lxplus, before compiling or using this package, set up your environment:
+This software is based on ROOT and CMake, that are preinstalled on lxplus.
+If you're not on lxplus, you need to install ROOT and CMake. 
+
+Before compiling or using this package, set up your environment:
 
     source ./init.sh
-
-On MacOS, before compiling or using this package, install ROOT and make sure your environment is correctly set to use ROOT and compile programs based on ROOT. Then, set up your environment:
-
-    source ./init_macos.sh 
-
-On Linux (tested on Ubuntu), do:
-
-    source ./init_linux.sh 
 
 Compile:
 
